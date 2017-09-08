@@ -14,6 +14,14 @@ Contribuições são bem vindas.
 
 O código deste projeto teve como base um tópico de um forum de discussão que pode ser acessado [aqui](http://www.devmedia.com.br/forum/validacao-do-numero-de-registro-de-cnh/354889)
 
+## Testes
+
+Números válidos de CNH podem ser obtidos aqui:
+
+[DETRAN-RJ](http://www.detran.rj.gov.br/_monta_aplicacoes.asp?doc=9073&cod=14&tipo=exibe_noticias&pag_noticias=true)
+
+[DETRAN-BA](http://www2.detran.ba.gov.br/EditalNotificacao_N%C2%BA001-2015.pdf)
+
 ## Licença
 
 MIT License

@@ -1,4 +1,5 @@
-# CNH
+# ValidaCNH
+
 ## Sobre
 Projeto que tem como objetivo permitir que se valide numericamente a Carteira Nacional de Habilitação - CNH. Este projeto teve como ponta pé inicial um tópico de um fórum de discussão que pode ser acessado [neste link](http://www.devmedia.com.br/forum/validacao-do-numero-de-registro-de-cnh/354889)
 

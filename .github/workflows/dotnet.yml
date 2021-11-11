@@ -23,5 +23,5 @@ jobs:
     - name: Publish CNH
       uses: brandedoutcast/publish-nuget@v2.5.5
       with:
-        PROJECT_FILE_PATH: cnh\cnh\ValidaCNH\ValidaCNH.csproj
+        PROJECT_FILE_PATH: ValidaCNH\ValidaCNH.csproj
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}

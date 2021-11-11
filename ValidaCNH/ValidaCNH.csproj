@@ -7,6 +7,11 @@
     <Version>1.0.1</Version>
     <PackageProjectUrl>https://github.com/armindogomes/cnh</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>Armindo Gomes</Authors>
+    <Company />
+    <Description>Este package permite a validação numérica da Carteira Nacional de Habilitação - CNH</Description>
+    <RepositoryUrl>https://github.com/armindogomes/cnh</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
 </Project>

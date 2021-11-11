@@ -6,8 +6,7 @@
     <FileVersion>1.0.1</FileVersion>
     <Version>1.0.1</Version>
     <PackageProjectUrl>https://github.com/armindogomes/cnh</PackageProjectUrl>
-    <!--<RepositoryUrl>https://github.com/armindogomes/cnh</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>-->
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>

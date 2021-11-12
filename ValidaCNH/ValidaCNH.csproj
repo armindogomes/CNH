@@ -9,10 +9,15 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Authors>Armindo Gomes</Authors>
     <Company />
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <Description>Este package permite a validação numérica da Carteira Nacional de Habilitação - CNH</Description>
     <RepositoryUrl>https://github.com/armindogomes/cnh</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>cnh validade carteira habilitacao detran contran denatran</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="docs\README.md" />
+  </ItemGroup>
 
 </Project>

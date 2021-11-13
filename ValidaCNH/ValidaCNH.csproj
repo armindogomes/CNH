@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <AssemblyVersion>1.0.2</AssemblyVersion>
-    <FileVersion>1.0.2</FileVersion>
-    <Version>1.0.2</Version>
+    <AssemblyVersion>1.0.3</AssemblyVersion>
+    <FileVersion>1.0.3</FileVersion>
+    <Version>1.0.3</Version>
     <PackageProjectUrl>https://github.com/armindogomes/cnh</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Authors>Armindo Gomes</Authors>
@@ -17,8 +17,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="docs\README.md" />
-    <None Include="docs\LICENSE" />
+    <None Include="Docs/LICENSE" />
+    <None Include="Docs/README.md" />
   </ItemGroup>
 
 </Project>

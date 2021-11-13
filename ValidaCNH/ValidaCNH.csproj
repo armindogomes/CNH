@@ -17,8 +17,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="Docs/LICENSE" />
-    <None Include="Docs/README.md" />
+    <None Include="Docs\LICENSE" />
+    <None Include="Docs\README.md" />
   </ItemGroup>
 
 </Project>

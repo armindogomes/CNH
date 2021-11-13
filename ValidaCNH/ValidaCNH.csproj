@@ -17,8 +17,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="Docs\LICENSE" />
-    <None Include="Docs\README.md" />
+    <None Include="docs\LICENSE">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="docs\README.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

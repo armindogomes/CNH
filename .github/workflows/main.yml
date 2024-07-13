@@ -23,12 +23,6 @@ jobs:
     - name: Build
       run: dotnet build --configuration Release --no-restore CNH/ValidaCNH.sln
 
-    - name: Check dir 1
-      run: ls -la CHN
-
-    - name: Check dir 2
-      run: ls -la CHN/ValidaCNH
-
     #- name: Run Tests
     #  run: dotnet test --no-build --verbosity normal CNH/ValidaCNH.sln
 

@@ -9,8 +9,10 @@ namespace ValidaCNH {
         private static int _tamNumeracao = TAM_CNH - TAM_DIGITO;
 
         public static bool Validar(string cnhFornecida) {
-            if (!long.TryParse(cnhFornecida, out long _)) throw new ArgumentException("O número informado não possui um formato válido. Apenas números devem ser informados.");
-            if (cnhFornecida.Length != TAM_CNH) return false;
+            if (!long.TryParse(cnhFornecida, out long _))
+                throw new ArgumentException("O número informado não possui um formato válido. Apenas números devem ser informados.");
+            if (cnhFornecida.Length != TAM_CNH)
+                return false;
 
             var numeracaoFornecida = cnhFornecida.Substring(0, _tamNumeracao);
             var digitoFornecido = cnhFornecida.Substring(_tamNumeracao, TAM_DIGITO);
@@ -24,7 +26,8 @@ namespace ValidaCNH {
             }
 
             var digito1 = soma % TAM_CNH;
-            if (digito1 == 10) incremento = -2;
+            if (digito1 == 10)
+                incremento = -2;
 
             digito1 = CorrigirDigito(digito1);
 

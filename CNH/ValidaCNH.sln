@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidaCNH", "ValidaCNH\ValidaCNH.csproj", "{9767651A-5F40-42D6-B294-5CB66EDCFD29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidaCNH.Teste", "ValidaCNH.Teste\ValidaCNH.Teste.csproj", "{47E29D3D-B6EA-4828-A65D-53B7650B1B48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9767651A-5F40-42D6-B294-5CB66EDCFD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9767651A-5F40-42D6-B294-5CB66EDCFD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9767651A-5F40-42D6-B294-5CB66EDCFD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9767651A-5F40-42D6-B294-5CB66EDCFD29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E29D3D-B6EA-4828-A65D-53B7650B1B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E29D3D-B6EA-4828-A65D-53B7650B1B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E29D3D-B6EA-4828-A65D-53B7650B1B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E29D3D-B6EA-4828-A65D-53B7650B1B48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1067BD3E-95C5-4390-A8FB-B07F676A407B}
+	EndGlobalSection
+EndGlobal

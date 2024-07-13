@@ -1,8 +1,8 @@
-using System;
 using System.Collections.Generic;
-using System.IO;
+using System;
 using System.Linq;
 using Xunit;
+using System.IO;
 
 namespace ValidaCNH.Teste {
 
@@ -11,8 +11,8 @@ namespace ValidaCNH.Teste {
         private readonly List<string> _listaCNHOk, _listaCNHErro;
 
         public CNHTeste() {
-            _listaCNHOk = new (File.ReadAllLines("ListaCNHOk.txt")?.Select(f => f.Trim()));
-            _listaCNHErro = new (File.ReadAllLines("ListaCNHErro.txt")?.Select(f => f.Trim()));
+            _listaCNHOk = new List<string>(File.ReadAllLines(Path.Combine("Dados", "ListaCNHOk.txt"))?.Select(f => f.Trim()));
+            _listaCNHErro = new List<string>(File.ReadAllLines(Path.Combine("Dados", "ListaCNHErro.txt"))?.Select(f => f.Trim()));
         }
 
         [Fact]

@@ -23,19 +23,13 @@ jobs:
     - name: Build
       run: dotnet build --configuration Release --no-restore CNH/ValidaCNH.sln
 
-    - name: Check dir 1
-      run: ls -la CHN
-
-    - name: Check dir 2
-      run: ls -la CHN/ValidaCNH
-
     #- name: Run Tests
     #  run: dotnet test --no-build --verbosity normal CNH/ValidaCNH.sln
 
-    #- name: Pack Library
-    #  run: dotnet pack CNH/ValidaCNH/ValidaCNH.csproj --configuration Release --no-build --output ./nupkg
+    - name: Pack Library
+      run: dotnet pack CNH/ValidaCNH/ValidaCNH.csproj --configuration Release --no-build --output ./nupkg
 
-    #- name: Publish to NuGet
-    #  env:
-    #    NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
-    #  run: dotnet nuget push ./nupkg/*.nupkg --api-key $NUGET_API_KEY --source https://api.nuget.org/v3/index.json
+    - name: Publish to NuGet
+      env:
+        NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+      run: dotnet nuget push ./nupkg/*.nupkg --api-key $NUGET_API_KEY --source https://api.nuget.org/v3/index.json

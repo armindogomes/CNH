@@ -17,4 +17,10 @@
     <PackageTags>cnh validade carteira habilitacao detran contran denatran</PackageTags>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Update="README.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

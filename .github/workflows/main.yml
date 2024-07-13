@@ -27,7 +27,7 @@ jobs:
     #  run: dotnet test --no-build --verbosity normal CNH/ValidaCNH.sln
 
     - name: Pack Library
-      run: dotnet pack /CNH/ValidaCNH/ValidaCNH.csproj --configuration Release --no-build --output ./nupkg
+      run: dotnet pack CNH/ValidaCNH/ValidaCNH.csproj --configuration Release --no-build --output ./nupkg
 
     - name: Publish to NuGet
       env:
